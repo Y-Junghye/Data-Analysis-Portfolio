@@ -25,7 +25,7 @@
     - 데이터 전처리 기법
     - 상관관계 분석만으로는 인과관계를 알기 어려움.
    
-* 프로젝트 상세 및 코드 -> [Google](https://google.com, "google link")
+* 프로젝트 상세 및 코드 -> [바로가기](https://google.com)
 
 ## Project 2. 회사 내 퇴직자의 퇴직 주요 요인 분석
 
