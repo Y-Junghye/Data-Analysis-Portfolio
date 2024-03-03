@@ -3,9 +3,8 @@
 ## 목차(Context)
 -------------
 
-1. 회사 내 우수성과자 특성 분석
-
-2. 회사 내 퇴직자의 퇴직 주요 요인 분석
+### [1. 회사 내 우수성과자 특성 분석](https://github.com/Y-Junghye/Portfolio/tree/07de85e51e70c94b0877a8618322ad956e681100/Project%201.%20Top%20Performer%20Characteristics%20Analysis%20)
+### 2. 회사 내 퇴직자의 퇴직 주요 요인 분석
 -----------------------------------------
 ## Project 1. 회사 내 우수성과자 특성 분석
 
