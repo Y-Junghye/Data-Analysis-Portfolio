@@ -3,7 +3,7 @@
 ## Context
 -------------
 
-### [Project 1. Analysis of characteristics of top performers within the company](https://github.com/Y-Junghye/Portfolio/tree/07de85e51e70c94b0877a8618322ad956e681100/Project%201.%20Top%20Performer%20Characteristics%20Analysis%20)
+### [Project 1. Analysis of characteristics of top performers within the company](https://github.com/Y-Junghye/Portfolio/tree/6532d92416509baf3d4cc25bdfaf45aa47d69bd6/Project%201.%20Top%20Performer%20Characteristics%20Analysis%20)
 ### [Project 2. Analysis of major retirement factors of retirees](https://github.com/Y-Junghye/Portfolio/tree/7180929fdec338861d47b909825e3895c39c45eb/Project%202.%20Retirement%20Factor%20Analysis)
 -----------------------------------------
 ## Project 1. 회사 내 우수성과자 특성 분석
