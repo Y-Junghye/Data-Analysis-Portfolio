@@ -1,3 +1,6 @@
+## **0. 프로젝트 추가 이미지**
+<img width="404" alt="Project 3 visualization" src="https://github.com/Y-Junghye/Portfolio/assets/159558491/c3b019eb-6131-446c-a533-0564e82a217b">
+
 ## **1. 배경**
 *   2015년부터 2024년까지 각각의 4개 고객 관련 데이터를 분석하여 고객 이탈 방지 및 유지 방안 수립
 
@@ -76,4 +79,4 @@
     *    다양한 형태의 데이터 분석으로 강의 주문, 수강, 선호 요일 등 특징 파악이 가능하여 고객들의 패턴 파악 가능
     *  고객들의 전체적인 패턴파악으로 인해 환불 금액 감소, 타사 이탈 방지 등 대책 수립 가능
 
-<img width="404" alt="Project 3 visualization" src="https://github.com/Y-Junghye/Portfolio/assets/159558491/c3b019eb-6131-446c-a533-0564e82a217b">
+
