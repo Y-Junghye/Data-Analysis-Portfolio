@@ -73,6 +73,7 @@
 
 ### **프로젝트 심화 분석 (course 데이터) 이미지**
 <img width="404" alt="Project 3 visualization" src="https://github.com/Y-Junghye/Portfolio/assets/159558491/c3b019eb-6131-446c-a533-0564e82a217b">
+
       * 강의가 종료된 유저가 541명으로 가장 많았음
       * 유저별 강의(course) 혹은 책(book)수강 유형을 나누면 강의유형이 압도적으로 높았음
       * 총 강의시간별 분석했을 때 10시간 이상 강의를 듣는 유저가 43.5%로 높은 경향을 보임
