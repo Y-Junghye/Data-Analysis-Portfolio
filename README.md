@@ -25,7 +25,7 @@
     - 데이터 전처리 기법 습득
     - 상관관계 분석으로 인한 관계파악 의존성 줄이기 위한 회귀분석 추가 시행 
    
-* 프로젝트 상세 및 코드 -> [바로가기](https://github.com/Y-Junghye/Portfolio/tree/07de85e51e70c94b0877a8618322ad956e681100/Project%201.%20Top%20Performer%20Characteristics%20Analysis%20)
+* 프로젝트 상세 및 코드 -> [바로가기](https://github.com/Y-Junghye/Portfolio/tree/07de85e51e70c94b0877a8618322ad956e681100/Project%201.%20Top%20Performer%20Characteristics%20Analysis%20/2.%20Code)
 
 ## Project 2. 회사 내 퇴직자의 퇴직 주요 요인 분석
 
