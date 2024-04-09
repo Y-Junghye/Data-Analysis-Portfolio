@@ -73,4 +73,4 @@
     - 데이터 전처리의 중요성과 각 강의관련 데이터별 특징 이해
     - 여러가지 형태의 분석결과 도출로 고객 데이터 다룰 수 있는 능력향상
 
- * 프로젝트 상세 및 코드 -> [바로가기](https://github.com/Y-Junghye/Portfolio/tree/807e1da60e6be1a5ecd6ca5ab9188c0c3b076841/Project%203.%20Analyze%20customer%20course-taking%20patterns%20across%20different%20types%20of%20courses/2.%20Code)
+ * 프로젝트 상세 및 코드 -> [바로가기](https://github.com/Y-Junghye/Portfolio/tree/22173f680cb7231ab72cafc8c953540e45b13964/Project%203.%20Analyze%20customer%20course-taking%20patterns%20across%20different%20types%20of%20courses/2.%20Code)
