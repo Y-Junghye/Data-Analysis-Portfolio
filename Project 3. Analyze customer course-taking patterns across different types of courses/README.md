@@ -74,7 +74,6 @@
 ### **프로젝트 심화 분석 (course 데이터) 이미지**
 <img width="404" alt="Project 3 visualization" src="https://github.com/Y-Junghye/Portfolio/assets/159558491/c3b019eb-6131-446c-a533-0564e82a217b">
 
-[Analyze customer course-taking patterns.pdf](https://github.com/Y-Junghye/Portfolio/files/14913665/Analyze.customer.course-taking.patterns.pdf)
 ## **5. 기대효과**
     *    다양한 형태의 데이터 분석으로 강의 주문, 수강, 선호 요일 등 특징 파악이 가능하여 고객들의 패턴 파악 가능
     *  고객들의 전체적인 패턴파악으로 인해 환불 금액 감소, 타사 이탈 방지 등 대책 수립 가능
