@@ -5,7 +5,7 @@
 
 ### [Project 1. Analysis of characteristics of top performers within the company](https://github.com/Y-Junghye/Portfolio/tree/6532d92416509baf3d4cc25bdfaf45aa47d69bd6/Project%201.%20Top%20Performer%20Characteristics%20Analysis%20)
 ### [Project 2. Analysis of major retirement factors of retirees](https://github.com/Y-Junghye/Portfolio/tree/6532d92416509baf3d4cc25bdfaf45aa47d69bd6/Project%202.%20Retirement%20Factor%20Analysis)
-### [Project 3. Analyze customer course-taking patterns across different types of courses](https://github.com/Y-Junghye/Portfolio/tree/807e1da60e6be1a5ecd6ca5ab9188c0c3b076841/Project%203.%20Analyze%20customer%20course-taking%20patterns%20across%20different%20types%20of%20courses)
+### [Project 3. Analyze customer course-taking patterns across different types of courses](https://github.com/Y-Junghye/Portfolio/tree/22173f680cb7231ab72cafc8c953540e45b13964/Project%203.%20Analyze%20customer%20course-taking%20patterns%20across%20different%20types%20of%20courses)
 -----------------------------------------
 ## Project 1. 회사 내 우수성과자 특성 분석
 
