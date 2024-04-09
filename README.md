@@ -7,7 +7,7 @@
 ### [Project 2. Analysis of major retirement factors of retirees](https://github.com/Y-Junghye/Portfolio/tree/6532d92416509baf3d4cc25bdfaf45aa47d69bd6/Project%202.%20Retirement%20Factor%20Analysis)
 ### [Project 3. Analyze customer course-taking patterns across different types of courses](https://github.com/Y-Junghye/Portfolio/tree/22173f680cb7231ab72cafc8c953540e45b13964/Project%203.%20Analyze%20customer%20course-taking%20patterns%20across%20different%20types%20of%20courses)
 -----------------------------------------
-## Project 1. 회사 내 우수성과자 특성 분석
+## Project 1. Analysis of characteristics of top performers within the company
 
 - 문제 정의
    - 회사 내에서 업무 성과를 올리고 있는 직원들이 증가하는 추세를 보입니다. 그래서 회사 내에서 우수한 성과를 올리는 직원들이 나오는 요인들을 확인
@@ -27,7 +27,7 @@
    
 * 프로젝트 상세 및 코드 -> [바로가기](https://github.com/Y-Junghye/Portfolio/tree/07de85e51e70c94b0877a8618322ad956e681100/Project%201.%20Top%20Performer%20Characteristics%20Analysis%20/2.%20Code)
 
-## Project 2. 회사 내 퇴직자의 퇴직 주요 요인 분석
+## Project 2. Analysis of major retirement factors of retirees
 
 - 문제 정의
    - 최근 회사를 퇴사하는 직원들이 증가하고 있어, 회사 내에서 직원들의 퇴직을 촉발시킬 수 있는 요인들을 점검
@@ -47,7 +47,7 @@
    
  * 프로젝트 상세 및 코드 -> [바로가기](https://github.com/Y-Junghye/Portfolio/tree/7180929fdec338861d47b909825e3895c39c45eb/Project%202.%20Retirement%20Factor%20Analysis)
 
-## Project 3. 회사 내 퇴직자의 퇴직 주요 요인 분석
+## Project 3. Analyze customer course-taking patterns across different types of courses
 
 - 문제 정의
    - 강의를 수강하는 고객들의 유형이 다양한 상황에서 환불, 수강, 주문 등 고객 정보와 관련된 데이터들을 통해 타사로의 고객 이탈 방지 요인들을 점검
