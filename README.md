@@ -5,6 +5,7 @@
 
 ### [Project 1. Analysis of characteristics of top performers within the company](https://github.com/Y-Junghye/Portfolio/tree/6532d92416509baf3d4cc25bdfaf45aa47d69bd6/Project%201.%20Top%20Performer%20Characteristics%20Analysis%20)
 ### [Project 2. Analysis of major retirement factors of retirees](https://github.com/Y-Junghye/Portfolio/tree/6532d92416509baf3d4cc25bdfaf45aa47d69bd6/Project%202.%20Retirement%20Factor%20Analysis)
+### [Project 3. Analyze customer course-taking patterns across different types of courses](https://github.com/Y-Junghye/Portfolio/tree/807e1da60e6be1a5ecd6ca5ab9188c0c3b076841/Project%203.%20Analyze%20customer%20course-taking%20patterns%20across%20different%20types%20of%20courses)
 -----------------------------------------
 ## Project 1. 회사 내 우수성과자 특성 분석
 
@@ -45,3 +46,31 @@
     - 프로젝트에 필요한 적절한 머신러닝 모델 선택 및 분석 능력 습득 
    
  * 프로젝트 상세 및 코드 -> [바로가기](https://github.com/Y-Junghye/Portfolio/tree/7180929fdec338861d47b909825e3895c39c45eb/Project%202.%20Retirement%20Factor%20Analysis)
+
+## Project 3. 회사 내 퇴직자의 퇴직 주요 요인 분석
+
+- 문제 정의
+   - 강의를 수강하는 고객들의 유형이 다양한 상황에서 환불, 수강, 주문 등 고객 정보와 관련된 데이터들을 통해 타사로의 고객 이탈 방지 요인들을 점검
+
+- 수행역할
+   - 데이터 수집, 전처리, EDA(탐색적 데이터 분석), 데이터 시각화, 데이터 타입 및 결측치 확인
+   - 각 데이터별로 특징들을 분석
+        - 매출이 가장 높은 날과 낮은 날, 주문수, 신청자수, 강의수
+        - 월별 강의 할인율
+        - 강의 키워드에서 가장 많이 언급된 단어
+        - 환불이 가장 많은 강의
+        - 가장 강의를 많이 신청한 고객과 그 금액
+        - 주말과 주중 평균 강의 신청율 차이와 회원가입이 활발한 시간
+        - 월별 강의 신청상태(완료, 진행중, 보류중)간 금액과 유저비중
+   - 2022년 1월부터 12월 사이 각 데이터의 추세분석 및 시각화
+
+- 기대효과 및 Lesson and Learned
+  + 기대효과
+    - 다양한 형태의 데이터 분석으로 강의 주문, 수강, 선호 요일 등 특징 파악이 가능하여 고객들의 패턴 파악 가능
+    - 고객들의 전체적인 패턴파악으로 인해 환불 금액 감소, 타사 이탈 방지 등 대책 수립 가능
+
+  + Lesson and Learned
+    - 데이터 전처리의 중요성과 각 강의관련 데이터별 특징 이해
+    - 여러가지 형태의 분석결과 도출로 고객 데이터 다룰 수 있는 능력향상
+
+ * 프로젝트 상세 및 코드 -> [바로가기](https://github.com/Y-Junghye/Portfolio/tree/807e1da60e6be1a5ecd6ca5ab9188c0c3b076841/Project%203.%20Analyze%20customer%20course-taking%20patterns%20across%20different%20types%20of%20courses/2.%20Code)
