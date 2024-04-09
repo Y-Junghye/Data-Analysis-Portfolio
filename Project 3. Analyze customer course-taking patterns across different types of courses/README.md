@@ -1,6 +1,3 @@
-## **0. 프로젝트 추가 이미지**
-<img width="404" alt="Project 3 visualization" src="https://github.com/Y-Junghye/Portfolio/assets/159558491/c3b019eb-6131-446c-a533-0564e82a217b">
-
 ## **1. 배경**
 *   2015년부터 2024년까지 각각의 4개 고객 관련 데이터를 분석하여 고객 이탈 방지 및 유지 방안 수립
 
@@ -41,7 +38,6 @@
 #####   *  (User) 회원 가입(created_at) 활발했던 주요 시간 분석 - 월별 차이와 그 근거 추론
      *  월별로 가장 활발한 회원가입 시간때는 1,2,12월은 13시, 3,10월은 5시, 6월은 6시, 나머지 달(4,5,7,8,9,11월)은 7시였음.
 
-
 #####   *  (Order) 강의 가격(list_price)을 5만원 단위의 도수분포표로 분석
      *  5만원 미만 강의 가격이 267,266개로 가장 많았으며, 670만원 미만까지로 나누어 볼 수 있었음
 
@@ -75,6 +71,10 @@
     *   회원들이 회원가입이 활발한 기간은 12,1,2월이 13시였음. 나머지 월들은 5-7시 사이인 것을 고려해 시간별 강의 수강 유도 전략 필요
     *   또한 강의 신청 완료, 보류, 취소 상태의 주문금액이 공통적으로 가장 낮았던 5월이었기에 원인 파악 및 강의 구매율을 높이기 위한 방안 마련 필요
 
+### **프로젝트 심화 분석 (course 데이터) 이미지**
+<img width="404" alt="Project 3 visualization" src="https://github.com/Y-Junghye/Portfolio/assets/159558491/c3b019eb-6131-446c-a533-0564e82a217b">
+
+[Analyze customer course-taking patterns.pdf](https://github.com/Y-Junghye/Portfolio/files/14913665/Analyze.customer.course-taking.patterns.pdf)
 ## **5. 기대효과**
     *    다양한 형태의 데이터 분석으로 강의 주문, 수강, 선호 요일 등 특징 파악이 가능하여 고객들의 패턴 파악 가능
     *  고객들의 전체적인 패턴파악으로 인해 환불 금액 감소, 타사 이탈 방지 등 대책 수립 가능
