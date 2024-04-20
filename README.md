@@ -47,7 +47,7 @@
    
  * 프로젝트 상세 및 코드 -> [바로가기](https://github.com/Y-Junghye/Portfolio/tree/7180929fdec338861d47b909825e3895c39c45eb/Project%202.%20Retirement%20Factor%20Analysis)
 
-## Project 3. Analyze customer course-taking patterns across different types of courses
+## Project 7. Analyze customer course-taking patterns across different types of courses
 
 - 문제 정의
    - 강의를 수강하는 고객들의 유형이 다양한 상황에서 환불, 수강, 주문 등 고객 정보와 관련된 데이터들을 통해 타사로의 고객 이탈 방지 요인들을 점검
@@ -73,4 +73,4 @@
     - 데이터 전처리의 중요성과 각 강의관련 데이터별 특징 이해
     - 여러가지 형태의 분석결과 도출로 고객 데이터 다룰 수 있는 능력향상
 
- * 프로젝트 상세 및 코드 -> [바로가기](https://github.com/Y-Junghye/Portfolio/tree/22173f680cb7231ab72cafc8c953540e45b13964/Project%203.%20Analyze%20customer%20course-taking%20patterns%20across%20different%20types%20of%20courses/2.%20Code)
+ * 프로젝트 상세 및 코드 -> [바로가기]([https://github.com/Y-Junghye/Portfolio/tree/22173f680cb7231ab72cafc8c953540e45b13964/Project%203.%20Analyze%20customer%20course-taking%20patterns%20across%20different%20types%20of%20courses/2.%20Code](https://github.com/Y-Junghye/Portfolio/tree/3816014be0a64c419fb42b48fef1d49fc5a9c60f/Project%207.%20Analyze%20customer%20course-taking%20patterns%20across%20different%20types%20of%20courses))
