@@ -1,7 +1,7 @@
 ## **1. Background**
 *   There is a growing trend of employees achieving outstanding performance within the company. Therefore, an analysis was conducted to identify the factors contributing to the emergence of high-performing employees within the organization.
 
-## **2. Data**
+## **2.Data**
 *  The dependent variable was set as PerformanceRating, with independent variables focusing on factors closely related to performance, including the percentage increase in salary (PercentSalaryHike), years with current manager (YearsWithCurrManager), and years since last promotion (YearsSinceLastPromotion).
 
 ## **3. Analysis**
