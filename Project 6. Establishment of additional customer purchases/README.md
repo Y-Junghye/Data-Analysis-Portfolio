@@ -40,7 +40,7 @@
      *  Promotions should target the most frequent purchasers, the 40s age group, and the largest age group, the 50s.
        - As customers in their 40s prefer mobile purchases and those in their 50s prefer TV purchases, alternative methods should be used to induce additional purchases.
 
-## **5. Expected Impact**
+## **5. Expected Effects**
     *  In addition to basic data analysis, understanding the purchasing characteristics of customers by similar clustering (cluster) analysis is possible.
     *  A 10% increase in sales revenue is expected for the following year and customer retention is expected to be maintained.
 
