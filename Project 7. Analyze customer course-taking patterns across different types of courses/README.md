@@ -55,11 +55,11 @@
              As of 2022, it can be seen that USERs log in again when less than 50 days (approximately 46 days) have passed since their new                registration.
              The number of users who took up to 350 days to reconnect is very small, around 210
      *  (customer) Monthly user registration trend
-             It can be seen that the highest number of registrations were in January with 9,332 users, followed by December with 8,587 users. The month with the fewest registrations was May with 5,185 users.
-             Overall, there was a decline from January to May, followed by an increase from May to August, but then another decline from August to November.
+             It can be seen that the highest number of registrations were in January with 9,332 users, followed by December with 8,587                    users. The month with the fewest registrations was May with 5,185 users.
+             Overall, there was a decline from January to May, followed by an increase from May to August, but then another decline from                  August to November.
      *  (refund) Monthly analysis of the number of refunded courses and amounts
-             REFUND data consists of records from January 3 to December 30, 2022, with the state being completed and the type being ADMIN_AUTO_REFUND.
-             Refunds were most frequent in January and December, with amounts exceeding 2,300,000 KRW. The lowest month was March, with 774 courses refunded totaling 14,900,000 KRW.
+             REFUND data consists of records from January 3 to December 30, 2022, with the state being completed and the type being                       ADMIN_AUTO_REFUND.
+             Refunds were most frequent in January and December, with amounts exceeding 2,300,000 KRW. The lowest month was March, with 774               courses refunded totaling 14,900,000 KRW.
              In contrast, October saw 906 courses refunded, but the total amount was lower at 14,990,000 KRW.
 
  ## **4. Conclusion**
@@ -74,11 +74,11 @@
       * The highest number of users, 541, had completed courses.
       * When dividing users by the type of courses or books attended, the overwhelming majority attended courses.
       * When analyzing total course hours, there was a high tendency, 43.5%, for users to listen to courses for over 10 hours.
-      * Analyzing the signup trends by year, there was a decline in signups between 2018 and 2019, but from 2019 to 2021, there was an increase of 7 to 90 signups per year, and from 2021 onwards, there was an increase of over 2.5 times.
+      * Analyzing the signup trends by year, there was a decline in signups between 2018 and 2019, but from 2019 to 2021, there was an               increase of 7 to 90 signups per year, and from 2021 onwards, there was an increase of over 2.5 times.
       * Analysis of course keywords revealed that the keyword "평생소장 (lifelong ownership)" appeared the most, 722 times.
     
 ## **5. Expected Effects**
-    *   The analysis of various types of data such as course orders, attendance, preferred days, etc., allows for understanding customer patterns.
-    *   Understanding the overall patterns of customers enables the formulation of strategies to reduce refund amounts, prevent churn to other platforms, etc.
+    *   The analysis of various types of data such as course orders, attendance, preferred days, etc., allows for understanding customer             patterns.
+    *   Understanding the overall patterns of customers enables the formulation of strategies to reduce refund amounts, prevent churn to             other platforms, etc.
 
 
