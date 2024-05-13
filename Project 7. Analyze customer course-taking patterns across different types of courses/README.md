@@ -1,87 +1,84 @@
-## **1. 배경**
-*   2015년부터 2024년까지 각각의 4개 고객 관련 데이터를 분석하여 고객 이탈 방지 및 유지 방안 수립
+## **1. Background**
+*   Analyzing five sets of customer-related data from 2015 to 2024 to devise strategies for preventing customer churn and maintaining retention.
 
-## **2. 데이터**
-*   강의 주문, 수강, 환불, 고객정보와 관련된 데이터들 수집
-   - order.csv, course.csv, refund.csv, customer.csv 데이터를 이용
+## **2. Data**
+*   Collecting data related to course orders, enrollments, refunds, customer information, and user details.
+   - Using the following data files: order.csv, course.csv, refund.csv, customer.csv, user.csv.
 
 
-## **3. 분석** 
+## **3. Analysis** 
 
-#####   *  (Order) 2022년 1월 중 가장 매출이 높았던 3일과 낮았던 3일의 매출액(list_price)과, 주문 수, 신청자 수, 강의 수 
-     *   가장 매출이 높았던 3일
-     *   2022-01-03 48,980,000원, 2022-01-07 34,700,000원, 2022-01-05 33,840,000원
-     *   주문 수: 3,876개, 신청자 수: 4,444명, 강의 수: 971개
-    
-     *  가장 매출이 낮았던 3일
-     *  2022-01-01 6,260,000원, 2022-01-22 ,685,000원, 2022-01-29 , 89,200원
-     *  주문 수: 703개, 신청 수:787명 강의수:174개
+#####   *  (Order) The top 3 days with the highest sales and the bottom 3 days with the lowest sales in January 2022, along with the revenue (list_price), number of orders, number of customers, and number of courses
+     *   Top 3 days with the highest sales:
+     *  2022-01-03: ₩48,980,000, 2022-01-07: ₩34,700,000, 2022-01-05: ₩33,840,000
+     *  Number of orders: 4,110, Number of customers: 6,598, Number of courses: 197
 
-#####   *  (Order) 월별 각 강의 별 할인율 분석
-     *   각 월별 각 강의별 할인율을 계산하였으며, 그 중 가장 높은 할인율을 가진 강의는 '[내부용]Apach' 으로 할인율은 200000.0.
+     *  Bottom 3 days with the lowest sales:
+     *  2022-01-01: ₩6,260,000, 2022-01-22: ₩2,685,000, 2022-01-29: ₩8,920,000
+     *  Number of orders: 806, Number of customers: 1350, Number of courses: 179
 
-#####   *  (Course) 강의 키워드에서 가장 많이 언급된 단어 분석
+#####   *  (Order) Analyzing the discount rate for each course on a monthly basis
+     *  Monthly discount rates for each course have been calculated, and among them, the course with the highest discount rate is '[내부용]Apach' with a discount rate of 200000.0.
 
-     *   강의 키워드 열에서 많이 언급된 단어를 찾기 위해서는 'keywords' 열을 토큰화하여서 가장 많이 언급되고 있는 단어를 찾아야 함
-     *   'keywords' 열에서 가장 많이 언급된 단어가 ','로 나타났지만, 글자가 아니기 때문에, 두번째로 많이 언급되는 단어를 구하는 코드를 사용하였으며, '평생소장'이 86회로 가장 많이 언급된 단어로 볼 수 있음
+#####   *  (Course) To analyze the most frequently mentioned words in the course keywords
+     *   To find the most frequently mentioned words in the course keywords, we need to tokenize the 'keywords' column and identify the most commonly mentioned words.
+     *   Although the most frequently mentioned word in the 'keywords' column appears as ',', which is not a word, we used code to find the second most frequently mentioned word. '평생소장' appeared 86 times, making it the most frequently mentioned word.
 
-#####   *  (Refund) 환불이 가장 많은 강의 분석 
-     *   환불이 많았던 강의 ID는 213368이며, 269회 환불되었었음.
+#####   *  (Refund) Analyzing the courses with the highest number of refunds
+     *   The course ID with the highest number of refunds is 213368, and it had 269 refunds.
+     
+#####   *  (Customer) Analysis of the customer who has enrolled in the most courses and the amount spent
+     *   The customer ID who enrolled in the most courses was 819532, and they spent a total of 6.69 million won.
 
-#####   *  (Customer) 강의를 가장 많이 신청한 고객과 그 금액 분석
-     *   강의를 많이 신청한 고객의 ID는 819532였으며, 총 669만원을 지불하였음.
+#####   * (Order) Average course enrollment rate differs between weekends and weekdays
+     *   It was observed that customers enroll in courses approximately three times more on weekdays compared to weekends
+     *   Weekend course enrollment rate: 25.7%, Weekday course enrollment rate: 74.3%.
 
-#####   * (Order) 주말과 주중의 평균 강의 신청율 차이
-     *   주중에 고객들이 주말보다 약 3배 정도 많이 신청하는 것을 알 수 있었음
-     *   주말 강의 신청율: 25.72%, 주중 강의 신청율: 74.28%
+#####   *  (User) Analysis of the most active times for user registrations (created_at)
+     *  The most active registration times by month were Jan, Feb, and Dec at 1 PM, Mar and Oct at 5 AM, Jun at 6 AM, and the other months (Apr, May, Jul, Aug, Sep, Nov) at 7 PM.
 
-#####   *  (User) 회원 가입(created_at) 활발했던 주요 시간 분석 - 월별 차이와 그 근거 추론
-     *  월별로 가장 활발한 회원가입 시간때는 1,2,12월은 13시, 3,10월은 5시, 6월은 6시, 나머지 달(4,5,7,8,9,11월)은 7시였음.
+#####   *  (Order) Analyzing the frequency distribution table of course prices (list_price) in 50,000 won intervals
+     *  The majority of courses, 267,266 in total, had prices below 50,000 won, and further divisions could be made up to less than 6,700,000 won
 
-#####   *  (Order) 강의 가격(list_price)을 5만원 단위의 도수분포표로 분석
-     *  5만원 미만 강의 가격이 267,266개로 가장 많았으며, 670만원 미만까지로 나누어 볼 수 있었음
+#####   *  (Order) Analysis of the Amount (list_price) and User Distribution for Completed, Pending, and Cancelled Courses by Month
+     *  May was the month with the lowest order amount across all three categories.
+     *  December had the highest order amount for both completed and pending courses, while January had the highest for cancelled courses.
 
-#####   *  (Order) 신청이 완료된 강의(complated)와 진행중인 강의(pending), 그리고 취소된 강의(cancelled) 간의 금액(list_price)과 유저의 비중을 월별로 각각 분석
-     *  전체 3가지 신청 상태에서 가장 주문금액이 낮았던 달은 공통적으로 5월이었음
-     *  전체 3가지 신청 상태에서 신청이 완료되거나 보류중인 강의의 주문금액이 많았던 달은 12월이었으며, 취소의 경우 1월이 가장 많았음.
+#####   *  Trend analysis from January to December 2022
+     *  (order) Comparison of monthly course prices (list_price) and sales prices (sale_price)
+             Order data consisted only of 2022 data.
+             When comparing the course price (list_price) and the sales price (sale_price), the difference between the two prices was                     largest in December (348,080,000 won) and smallest in June (57,600,000 won).
+     *  (course) Monthly comparison of ongoing and pending courses
+             Since course data was from 2018 to 2022, only 2022 data is filtered and analyzed
+             As of 2022, it was found that there were more ongoing id than pending id
+     *  (user) Period from registration to last login date
+             As of 2022, it can be seen that USERs log in again when less than 50 days (approximately 46 days) have passed since their new                registration.
+             The number of users who took up to 350 days to reconnect is very small, around 210
+     *  (customer) Monthly user registration trend
+             It can be seen that the highest number of registrations were in January with 9,332 users, followed by December with 8,587 users. The month with the fewest registrations was May with 5,185 users.
+             Overall, there was a decline from January to May, followed by an increase from May to August, but then another decline from August to November.
+     *  (refund) Monthly analysis of the number of refunded courses and amounts
+             REFUND data consists of records from January 3 to December 30, 2022, with the state being completed and the type being ADMIN_AUTO_REFUND.
+             Refunds were most frequent in January and December, with amounts exceeding 2,300,000 KRW. The lowest month was March, with 774 courses refunded totaling 14,900,000 KRW.
+             In contrast, October saw 906 courses refunded, but the total amount was lower at 14,990,000 KRW.
 
-#####   *  2022년 1월부터 12월까지 trend 분석
-     *  (order 데이터) 월별 강의 가격(list_price)과 판매가격(sale_price) 비교
-            order 데이터는 2022년 데이터로만 이루어져 있었음
-            강의 가격(list_price)과 판매가격(sale_price)를 비교했을 때 두 가격 간의 차이가 
-            12월(348,080,000원)이 가장 컸으며, 6월(57,600,000원)이 가장 작았음
-     *  (course 데이터) 월별 진행중인(Ongoing) 강의와 보류중인(Pending) 강의 비교
-             course 데이터는 2018년부터 2022년까지 있었기 때문에 2022년 데이터만 필터링하여 분석함
-             2022년 기준 보류중인(pending) id보다 강의 수강을 진행중인(ongoing) id가 많음을 알 수 있었음
-     *  (user 데이터) 가입 후 마지막 로그인날까지 기간
-              2022년 기준으로 했을 때 USER들은 신규가입 후 마지막 로그인날까지 50일이 되지 않았을 때 다시 접속하는 것을 알 수 있음
-              그 숫자는 22,701명임.
-              최대 350일까지 다시 접속하는데 걸린 유저들은 210명 정도로 매우 적음
-     *  (customer 데이터) 월별 가입 유저수 추세
-              1월 9332명, 12월 8587명 순으로 가장 많은 가입을 했음음 볼 수 있었으며, 가장 가입 유저가 적었던 달은 5월로 5,185명이었음
-             전체적으로 1월에서 5월 사이는 하락세를 보였고, 5월에서 8월까지는 다시 상승하지만 8월~11월까지 다시 하락세를 보였음
-     *  (refund 데이터) 월별 환불 강의수와 금액 분석
-              REFUND 데이터는 2022년 1월 3일부터 12월 30일까지 구성되었으며, state가 completed되었으며, type이 ADMIN_AUTO_REFUND 데이터만 존재하였음
-              환불은 1월과 12월에 많이 일어났으며, 그 금액도 2,300,000원 이상이었음. 적은 달은 3월로 774개 강의가 14,900,000원 환불되었음
-              반면 10월에는 906개 강의가 환불되었지만 그 금액은 14,990,000원으로 적은 액수가 환불되었음
+ ## **4. Conclusion**
+    *   Customers tend to sign up around three times more on weekends than on weekdays.
+    *   In December, there is a significant amount of orders for courses, but there is a notable difference between the actual course price and the selling price, leading to a high rate of refunds. While there is a high number of course registrations in January and February, there is also a high rate of refunds, especially in January.
+    *   The peak period for member registrations was from December to February around 1 PM, while in other months, registrations were more active between 5 to 7 PM. Considering this pattern, strategies to encourage course attendance at different times of the day are necessary.
+    *   Additionally, May consistently had the lowest order amounts across all statuses: completed, pending, and canceled. Understanding the reasons behind this and devising strategies to increase course purchase rates are necessary.
 
- ## **4. 결과**
-    *   주중보다 주말에 고객들이 많이 약 3배 많이 신청하는 경향이 있음
-    *   12월에 강의 주문금액이 많은만큼 실제강의가격과 판매가격 간의 차이가 크며 환불도 많이 발생함. 1, 2월에는 강의 신청수가 많지만 1월에는 환불이 많이 일어남
-    *   회원들이 회원가입이 활발한 기간은 12,1,2월이 13시였음. 나머지 월들은 5-7시 사이인 것을 고려해 시간별 강의 수강 유도 전략 필요
-    *   또한 강의 신청 완료, 보류, 취소 상태의 주문금액이 공통적으로 가장 낮았던 5월이었기에 원인 파악 및 강의 구매율을 높이기 위한 방안 마련 필요
-
-### **프로젝트 심화 분석 (course 데이터) 이미지**
+### **Advanced Analysis of the Project (Course Data) - Image**
 <img width="404" alt="Project 3 visualization" src="https://github.com/Y-Junghye/Portfolio/assets/159558491/c3b019eb-6131-446c-a533-0564e82a217b">
 
-      * 강의가 종료된 유저가 541명으로 가장 많았음
-      * 유저별 강의(course) 혹은 책(book)수강 유형을 나누면 강의유형이 압도적으로 높았음
-      * 총 강의시간별 분석했을 때 10시간 이상 강의를 듣는 유저가 43.5%로 높은 경향을 보임
-      * 연도별 가입 경향을 분석하면 2018-2019년 사이는 가입이 저조했지만, 2019년-2021년 사이 7-90명씩 증가했으며, 2021년부터는 약 2.5배 이상 증가하였음
-      * 강의 키워드 분석 결과 평생소장이 들어간 키워드가 722개로 가장 많았음.
+      * The highest number of users, 541, had completed courses.
+      * When dividing users by the type of courses or books attended, the overwhelming majority attended courses.
+      * When analyzing total course hours, there was a high tendency, 43.5%, for users to listen to courses for over 10 hours.
+      * Analyzing the signup trends by year, there was a decline in signups between 2018 and 2019, but from 2019 to 2021, there was an increase of 7 to 90 signups per year, and from 2021 onwards, there was an increase of over 2.5 times.
+      * Analysis of course keywords revealed that the keyword "평생소장 (lifelong ownership)" appeared the most, 722 times.
     
-## **5. 기대효과**
-    *    다양한 형태의 데이터 분석으로 강의 주문, 수강, 선호 요일 등 특징 파악이 가능하여 고객들의 패턴 파악 가능
-    *  고객들의 전체적인 패턴파악으로 인해 환불 금액 감소, 타사 이탈 방지 등 대책 수립 가능
+## **5. Expected Effects**
+    *   The analysis of various types of data such as course orders, attendance, preferred days, etc., allows for understanding customer patterns.
+    *   Understanding the overall patterns of customers enables the formulation of strategies to reduce refund amounts, prevent churn to other platforms, etc.
 
 
