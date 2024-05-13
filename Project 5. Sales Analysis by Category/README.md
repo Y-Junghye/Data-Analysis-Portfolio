@@ -56,6 +56,6 @@
 #####   * The reason why the number of product order cancellations was the highest on Thursday is because both men and women tend to purchase bags on Thursdays, and in the case of bags, there is less burden of order cancellation, so there are many cancellations.
      *   In particular, it has been shown that women purchase larger bags than men, so it is necessary to encourage women to purchase more bags by holding a large sales event in January, when people spend more and cancellations are less.
 
-## **5. Expected effect**
+## **5. Expected Effects**
     *  Through data analysis focusing on major categories and subcategories, purchasing characteristics by category can be identified.
     *  It is possible to establish measures to increase sales by understanding customers’ overall purchasing patterns.
