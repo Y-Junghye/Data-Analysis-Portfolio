@@ -4,7 +4,8 @@
 -------------
 
 ### [Project 1. Analysis of characteristics of top performers within the company](https://github.com/Y-Junghye/Data-Analysis-Portfolio/tree/06ba2af666746f0bed8cdce5c93f1b547f9cfa3f/Project%201.%20Top%20Performer%20Characteristics%20Analysis%20/2.%20Code)
-     *  This project aimed to enhance workplace performance by identifying key factors and improving the evaluation and compensation system for employees to achieve both improved              performance and salary increases.
+     *  This project aimed to enhance workplace performance by identifying key factors and improving the evaluation and compensation 
+        system for employees to achieve both improved performance and salary increases.
 ### [Project 2. Analysis of major retirement factors of retirees](https://github.com/Y-Junghye/Data-Analysis-Portfolio/tree/06ba2af666746f0bed8cdce5c93f1b547f9cfa3f/Project%202.%20Retirement%20Factor%20Analysis/2.%20Code)
 ### [Project 3. Analysis of different data (manufacturing, finance, gaming)](https://github.com/Y-Junghye/Data-Analysis-Portfolio/tree/6b275ad603d5c813b9632e6da11ca8f07adc57cf/Project%203.%20Analysis%20of%20different%20data%20(manufacturing%2C%20finance%2C%20gaming)/2.%20Code)
 ### [Project 4. Identifying Pass:Fail in the semiconductor process](https://github.com/Y-Junghye/Data-Analysis-Portfolio/tree/42f7483a7cd5129af7f20fb553e10c89fce28fba/Project%204.%20Identifying%20Pass%3AFail%20in%20the%20semiconductor%20process/2.%20Code)
