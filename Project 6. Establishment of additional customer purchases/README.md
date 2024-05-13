@@ -1,48 +1,46 @@
-## **1. 배경**
-*   2021년 '다잇다' 회사 고객의 구매 이력 데이터를 이용해 고객의 추가 구매 유도 위한 전략이 필요함
+## **1. Background**
+*   Analysis is required to induce additional purchases from customers based on the purchase history data of 'Daitda' company in 2021.
 
-## **2. 데이터**
-*   고객의 인적 및 구매 이력 정보를 담고 있는 데이터 수집
-     *   고객번호, 고객연령, 주문번호, 주문일자, 주문 수량 등 포함
+## **2. Data**
+*   Data containing customers' personal and purchase history information collected.
+     *   Includes customer number, age, order number, order date, order quantity, etc.
 
-## **3. 분석** 
 
-#####   *  월별 분류 및 분석
-     *   5월에 고객 구매와 금액이 가장 많았음
-     *   1월에 고객 결제금액이 가장 적었음
+## **3. Analysis** 
+
+#####   *  Monthly Classification and Analysis
+     *   May had the highest customer purchases and revenue.
+     *   January had the lowest payment amount.
   
-#####   *  요일별 분류 및 분석
-     *   수요일에 고객들이 많은 금액을 지불하였음을 알 수 있었음
-     *   주말(토, 일)은 거의 수요일 구매액의 절반 정도였음
+#####   *  Day-of-Week Classification and Analysis
+     *   Customers made significant payments on Wednesdays.
+     *   Weekends (Saturday and Sunday) collectively accounted for about half the purchase amount compared to Wednesdays.
 
-#####   *  연령대별 분류 및 분석
-     *   연령대별 전체 구매경향을 보면 40대의 구매가 많았으며, 50대, 30대, 60대 이상 순이었음.
-     *   연령대별 구매방식을 살펴보면 10대, 20대, 30대, 40대는 모바일 구매를 선호하고, 50대와 60대 이상 TV 구매를 선호하는 경향이 있음
+#####   * Age Group Classification and Analysis
+     *   In terms of overall purchase trends by age group, customers in their 40s made the most purchases, followed by those in their 50s, 30s, and 60s and above.
+     *   Regarding purchase methods by age group, teenagers, 20s, 30s, and 40s preferred mobile purchases, while those in their 50s and above preferred TV purchases.
 
-#####   *  연도별 분류 및 분석
-     *   2015~2017년 사이 고객들은 구매가 저조하여 매출증대 방안 필요
-     *   2019년, 2020년 가입 고객들이 활발하게 구매를 하고 있는 것을 알 수 있음  
-        - 2020년 가입 고객들을 분석했을 때 일반식품을 가장 많이 구매한 것으로 나타남
-        - 2020년 기준으로 연령별 분석했을 때 40대가 가장 많이 구매액을 지불하였음
+#####   *  Yearly Classification and Analysis
+     *   Customers between 2015 and 2017 showed low purchasing behavior, indicating the need for strategies to increase sales.
+     *   Active purchasing was observed among customers who joined in 2019 and 2020.
+       - Analysis of customers who joined in 2020 revealed a preference for groceries.
+       - In terms of age analysis as of 2020, customers in their 40s made the highest payment amount.
+       
+#####   * Clustering Classification and Analysis
+     *   Cluster 0 showed a preference for groceries.
+     *   Cluster 1 showed a preference for women's clothing.
+     *   Cluster 2 showed a preference for furniture/interior items.
 
-#####   *  클러스터링 분류 및 분석
-     *   cluster0은 일반식품을 가장 선호함
-     *   cluster1은 여성의류를 가장 선호함
-     *   cluster2는 가구/인테리어를 가장 선호함
+ ## **4. Conclusion**
+     *   To devise strategies to induce additional purchases from customers, the following conclusions were drawn:
+       - Discount coupons should be distributed for use on Wednesdays, Saturdays, and Sundays.
+       - Since customers tend to make the most purchases on Wednesdays and about half the purchases on weekends, offering a 10% discount coupon on Wednesdays and a 50% discount coupon on weekends could increase revenue.
+     *  Focus should be on customers who joined between 2015 and 2017 instead of those actively engaged from 2018 to 2021.
+       - Since most purchases by customers who joined between 2015 and 2017 were low, discounted sales focusing on groceries, women's clothing, and furniture/interior items identified through clustering analysis are needed.
+     *  Promotions should target the most frequent purchasers, the 40s age group, and the largest age group, the 50s.
+       - As customers in their 40s prefer mobile purchases and those in their 50s prefer TV purchases, alternative methods should be used to induce additional purchases.
 
+## **5. Expected Impact**
+    *  In addition to basic data analysis, understanding the purchasing characteristics of customers by similar clustering (cluster) analysis is possible.
+    *  A 10% increase in sales revenue is expected for the following year and customer retention is expected to be maintained.
 
- ## **4. 결론**
-     *   분석 목표인 고객 추가 유도 방안을 마련하게 위해 다음과 같은 결론을 내림
-       - 수요일, 토요일, 일요일에 사용하기 위한 할인쿠폰을 배포해야 함
-       - 고객들은 수요일에 가장 구매가 많고 주말에는 절반 정도 구매를 하기 때문에 수요일은 10%, 주말은 
-         반값 세일 쿠폰을 지불하여 구매를 유도해야 매출액이 상승될 것으로 봄
-     *   활발하게 활동 중인 2018-2021년 가입고객보다 2015-2017년 가입고객에 중점 맞춰야 함.
-       - 2015-2017년 가입 고객들의 대부분 구매가 저조해 클러스터링 분석을 했을때 나타난 일반식품,  
-         여성의류, 가구/인테리어 아이템들을 중심으로 할인 판매가 필요
-     *   제일 구매액과 수가 많은 40대와 가장 연령대 중 숫자가 많은 50대를 중심으로 프로모션이 필요
-       - 40대는 모바일 이용이 많고, 50대는 TV 이용으로 구매하는 경향이 있으므로, 다른 방식을 사용하여 
-         추가 구매를 유도해야 함.
-
-## **5. 기대효과**
-    *  기본적인 데이터 분석에 더해 비슷한 클러스터링(군집)분석을 통해 유사특성 고객별 구매특징 파악가능
-    *  다음 해 판매수익률 10% 예상 및 기존고객 유지
