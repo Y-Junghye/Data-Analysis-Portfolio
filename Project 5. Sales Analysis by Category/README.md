@@ -1,75 +1,61 @@
-## **1. 배경**
-*   2014년 3월 기준 온라인 커머스 기업의 매출 관점에서 카테고리별(대카테고리, 서브 카테고리) 매출을 분석하고 향후 성장 방안 수립
+## **1. Background**
+*   Analyzing sales by category (main category, sub-category) from the perspective of revenue for an e-commerce company as of March 2014 and devising future growth strategies.
 
-## **2. 데이터**
-*   2011년~2014년 3월까지 고객 인적정보, 거래내역, 카테고리 데이터 포함된 데이터 이용
+## **2. Data**
+*  Utilizing data including customer demographics, transaction history, and category data from 2011 to March 2014.
 
-## **3. 분석** 
+## **3. Analysis** 
 
-#####   * 우선적으로 연도별, 월별, 요일별로 주문이 되거나 취소되는 현황을 살펴 보았음.
-     *   연도별로 비교했을 때 2012, 2013년의 주문이 많이 발생하였으며, 2012년에 주문 취소가 많이 
-     발생하였음. 하지만 연도별로 비교했을 때 주문과 취소 건수가 비슷하여 비교가 어렵다고 판단됨.
-     *   월별로는 2월, 1월, 10월 순으로 주문량이 많았으며, 2월, 10월, 4월 순으로 취소가 많이 발생함.
-     1월에는 오히려 주문취소가 많이 발생하지 않음.
-     *   요일별로는 금요일이 가장 많으나 다른 요일도 비슷하게 발생하여 차이를 두기 어려워 보임.
-      하지만 취소건수에서 목요일, 금요일 순으로 취소가 발생했고, 일요일이 적었음
+#####   * First, we looked at the status of orders being placed or canceled by year, month, and day of the week.
+     *   When comparing by year, many orders occurred in 2012 and 2013, and many order cancellations occurred in 2012. However, when comparing by year, the number of orders and cancellations was similar, making comparison difficult.
+     *   By month, the order volume was highest in February, January, and October, and the most cancellations occurred in February, October, and April. In January, there are not many order cancellations.
+     *   By day of the week, Friday is the most common, but similar occurrences occur on other days of the week, so it seems difficult to make a difference. However, the number of cancellations occurred in the order of Thursday and Friday, and the least number of cancellations occurred on Sunday.
 
-#####   * 또한 고객들은 e-shop에서 구매를 많이 하는 경향을 보임
+#####   * Customers also tend to make a lot of purchases in e-shops.
 
-#####   * 대카테고리별 성별 구분했을 때 남성과 여성의 소비 카테고리는 같았지만, bags를 제외하고 
-다른 항목들에서 남성들의 거래금액과 주문수량이 많았음
+#####   * When separated by gender by major category, the consumption categories of men and women were the same, but except for bags, men had higher transaction amount and order quantity in other items.
 
-#####   * 대카테고리별 요일로 구분했을 때 bags의 경우 남성,여성 모두 목요일, books는 여성은 화요일, 
-남성은 일요일, clothing은 여성은 화요일, 남성은 월요일, electronics는 여성의 경우 화요일, 
-남성은 토요일, footwear은 여성은 수요일, 남성은 일요일, home and kitchen의 경우 여성은 월요일, 
-남성은 금요일이 구매량이 많았음
+#####   * When divided by day of the week by major category, bags are Thursday for both men and women, books are Tuesday for women, Sunday are for men, clothing are Tuesday for women and Monday for men, electronics are Tuesday for women, Men's purchases were higher on Saturdays, footwear purchases were higher on women's Wednesdays and men's purchases were higher on Sundays, and home and kitchen purchases were higher on women's Mondays and men's Fridays.
 
-     *   여성
-       - bags : 목요일
-       - home and kitchen : 월요일
-       - clothing, electronics, books : 화요일
-       - footwear: 수요일
-     *   남성
-       - bags : 목요일
-       - books : 일요일
-       - clothing : 월요일
-       - electronics : 토요일
-       - footwear : 일요일
-       - home and kitchen : 금요일
+     *   female
+       - bags : Thursday
+       - home and kitchen : Monday
+       - clothing, electronics, books : Tuesday
+       - footwear: Wednesday
+     *   male
+       - bags : Thursday
+       - books : Sunday
+       - clothing : Monday
+       - electronics : Saturday
+       - footwear : Sunday
+       - home and kitchen : Friday
 
-#####   * 세부적인 카테고리 분석은 거래금액이나 수량이 비슷했음
+#####   * Detailed category analysis showed that transaction amount and quantity were similar.
 
-#####   * 성별 구분 없음
-     *   요일별로 대카테고리르 나누어봤을 때 전체적으로는 books가 많이 주문되었음
-     *   카테고리 측면에서 보면 home and kitchen은 금요일, books는 일요일, bags는 목요일,
-     clothing은 화요일, footwear은 수요일, electronics는 토요일에 구매가 많았음.
-     *   하지만 월요일은 특이사항이 없어 books 주문이 많은 것으로 봐야함
+#####   * No gender distinction
+     *   When divided into major categories by day of the week, a lot of books were ordered overall.
+     *   In terms of categories, most purchases were made for home and kitchen on Fridays, books on Sundays, bags on Thursdays, clothing on Tuesdays, footwear on Wednesdays, and electronics on Saturdays.
+     *   However, there are no special events on Mondays, so it is assumed that there are many orders for books.
 
-#####   * 각 도시별 대카테고리 주문량을 분석했을 때 다음과 같은 항목들이 각 도시에서 많이 주문되었음
-     *   1번, 3번 도시: home and kitchen
-     *   2번, 8번 도시: electronics
-     *   4번, 7번 도시: books
-     *   5번, 10번 도시: bags
-     *   6번 도시: clothing
-     *   9번 도시: footwear
+#####   * When analyzing the order volume of major categories in each city, the following items were ordered in large quantities in each city.
+     *   Cities 1 and 3: home and kitchen
+     *   Cities 2 and 8: electronics
+     *   Cities 4 and 7: books
+     *   Cities 5 and 10: bags
+     *   City 6: clothing
+     *   City 9: footwear
 
- ## **4. 결론**
+ ## **4. Conclusion**
 
-#####   * 대카테고리와 서브카테고리를 비교했을 때 서브카테고리에서는 매출액 등 구분이 어렵다고 판단하여 
-대카테고리를 기준으로 매출 성장 방안을 마련
+#####   *  When comparing main and sub-categories, it was difficult to differentiate based on revenue, so growth strategies were devised based on main categories.
 
-#####   * 도시별 상품소비 특성을 고려해 접근 필요
-     *   도시를 기준으로 매출 성장을 시키기 위해 일요일과 월요일은 books, 화요일은 clothing, 수요일은
-     footwear, 목요일은 bags, 금요일은 home and kitchen, 토요일은 electronics 라는 각각의 
-     대카테고리별 구매향상을 위한 전략을 세워야 함.
-     *   위의 요일들을 기반으로 10개 도시별로 주문이 많았던 카테고리들을 고려해 도시별로 해당 카테고리 
-     품목을 싸게 판매하거나 할인 쿠폰 배부 등 다른 전략이 필요
+#####   * Consideration of city-specific consumption characteristics is necessary.
+     *   In order to grow sales based on city, a strategy must be established to improve purchases for each major category: books on Sunday and Monday, clothing on Tuesday, footwear on Wednesday, bags on Thursday, home and kitchen on Friday, and electronics on Saturday.
+     *   Based on the days of the week above, considering the categories with the most orders in each of the 10 cities, different strategies are needed, such as selling items in the category at a lower price or distributing discount coupons for each city.
+     
+#####   * The reason why the number of product order cancellations was the highest on Thursday is because both men and women tend to purchase bags on Thursdays, and in the case of bags, there is less burden of order cancellation, so there are many cancellations.
+     *   In particular, it has been shown that women purchase larger bags than men, so it is necessary to encourage women to purchase more bags by holding a large sales event in January, when people spend more and cancellations are less.
 
-#####   * 목요일이 가장 상품 주문취소 건수가 많았던 이유는 주로 남성 여성 모두 목요일은 bags를 구매를 
-하는 경향이 있는데, 가방의 경우 주문취소에 대한 부담이 덜하기 때문에 취소가 많다고 봄. 
-     *   특히 여성이 남성보다 가방을 구매하는 양과 금액이 큰 것으로 나타나, 사람들의 소비가 많고 취소가 
-     적은 1월에 큰 판매 이벤트를 열어 여성들이 많이 가방을 많이 구매할 수 있도록 유도 필요
-
-## **5. 기대효과**
-    *  대카테고리와 서브 카테고리를 중심으로 한 데이터 분석으로 카테고리별 구매특징 파악 가능
-    *  고객들의 전체적인 구매 패턴파악으로 인해 매출 증대 방안 수립 가능
+## **5. Expected effect**
+    *  Through data analysis focusing on major categories and subcategories, purchasing characteristics by category can be identified.
+    *  It is possible to establish measures to increase sales by understanding customers’ overall purchasing patterns.
