@@ -1,7 +1,7 @@
 ## **1. Background**
      *  dentifying the main causes of yield deviation in semiconductor processes using sensor data
   
-## **2. Data**
+## **2.  Data**
      *  Collection of semiconductor process data (measurement time, sensor data, defect status)
 
 ## **3. Analysis** 
