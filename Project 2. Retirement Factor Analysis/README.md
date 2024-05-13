@@ -26,6 +26,6 @@
     *   Additionally, when analyzing factors such as "YearsInCurrentRole", "YearsAtCompany" and "YearsWithCurrManager", "YearsAtCompany" was found to influence attrition. However, when compared with "DistanceFromHome", "MonthlyIncome", "EnvironmentSatisfaction" and performance, monthly income emerged as the most critical factor.    
     *   Therefore, the main trigger for attrition can be seen as monthly income. Given that satisfaction with work environment and performance among departing employees is high, strategies to increase employees' actual income, including performance-based bonuses and incentives, need to be explored.
 
-## **5. Expected Impact**
+## **5. Expected Effects**
     *  Identification of factors contributing to employee attrition and prevention of human capital outflow.
 
