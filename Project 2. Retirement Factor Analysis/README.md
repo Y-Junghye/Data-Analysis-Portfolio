@@ -1,12 +1,12 @@
 ## **1. Background**
-*   Recently, there has been an increase in employees leaving the company, prompting an examination of factors within the company that may contribute to employee attrition.
+     *  Recently, there has been an increase in employees leaving the company, prompting an examination of factors within the company that may contribute to employee attrition.
   
 ## **2. Data**
-*   The dependent variable is set as "attrition," indicating whether an employee has left or not, and independent variables such as "DistanceFromHome," "MonthlyIncome," "EnvironmentSatisfaction," and "PerformanceRating" are analyzed for their relevance to attrition.
+     *  The dependent variable is set as "attrition," indicating whether an employee has left or not, and independent variables such as "DistanceFromHome," "MonthlyIncome," "EnvironmentSatisfaction," and "PerformanceRating" are analyzed for their relevance to attrition.
 
 
 ## **3. Analysis** 
-*  General statistical analysis, correlation analysis, and machine learning predictive models are utilized.
+     *  General statistical analysis, correlation analysis, and machine learning predictive models are utilized.
 
 #####   * General Statistical Analysis
      *   Analysis using histograms revealed that out of a total dataset of 1,470 individuals, 237 had left the company ("Yes" for attrition), while 1,233 had not ("No").
