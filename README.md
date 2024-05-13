@@ -10,20 +10,23 @@
      *  This project was conducted to understand and reduce the employee turnover rate within the company.The goal 
         was to identify the key factors contributing to employee attrition, manage them, and prevent employee turnover.
 ### [Project 3. Analysis of different data (manufacturing, finance, gaming)](https://github.com/Y-Junghye/Data-Analysis-Portfolio/tree/6b275ad603d5c813b9632e6da11ca8f07adc57cf/Project%203.%20Analysis%20of%20different%20data%20(manufacturing%2C%20finance%2C%20gaming)/2.%20Code)
-     *  This project aimed to enhance workplace performance by identifying key factors and improving the evaluation 
-        and compensation system for employees to achieve both improved performance and salary increases.
+     *  Analyzing varied industry data requires preprocessing, EDA, and addressing specific needs like fraud detection 
+        for accurate insights, stressing the importance of preprocessing across sectors.
 ### [Project 4. Identifying Pass:Fail in the semiconductor process](https://github.com/Y-Junghye/Data-Analysis-Portfolio/tree/42f7483a7cd5129af7f20fb553e10c89fce28fba/Project%204.%20Identifying%20Pass%3AFail%20in%20the%20semiconductor%20process/2.%20Code)
-     *  This project aimed to enhance workplace performance by identifying key factors and improving the evaluation 
-        and compensation system for employees to achieve both improved performance and salary increases.
+     *  This project aims to identify the causes of yield loss in semiconductor manufacturing processes using sensor 
+        data and develop a predictive model for pass/fail yield rates to improve quality and efficiency.
 ### [Project 5. Sales Analysis by Category](https://github.com/Y-Junghye/Data-Analysis-Portfolio/tree/42f7483a7cd5129af7f20fb553e10c89fce28fba/Project%205.%20Sales%20Analysis%20by%20Category/2.%20Code)
-     *  This project aimed to enhance workplace performance by identifying key factors and improving the evaluation 
-        and compensation system for employees to achieve both improved performance and salary increases.
+     *  This project aimed to analyze sales data by category (main and sub-categories) in the e-commerce sector as of 
+        March 2014, identifying trends and formulating strategies for future growth.
 ### [Project 6. Establishment of additional customer purchases](https://github.com/Y-Junghye/Data-Analysis-Portfolio/tree/377c820fa3c7d325cdd21bf5b323f1de34db60b4/Project%206.%20Establishment%20of%20additional%20customer%20purchases/2.%20Code)
-     *  This project aimed to enhance workplace performance by identifying key factors and improving the evaluation 
-        and compensation system for employees to achieve both improved performance and salary increases.
+     *  This project aimed to formulate strategies for inducing additional purchases among 'Daitda' company customers 
+        using their purchase history data from 2021, focusing on various aspects such as monthly, weekly, age group, and 
+        yearly trends, as well as clustering analysis to identify customer preferences.
 ### [Project 7. Analyze customer course-taking patterns across different types of courses](https://github.com/Y-Junghye/Data-Analysis-Portfolio/tree/ff0a084faf45944c92223012498d287a36ef9e98/Project%207.%20Analyze%20customer%20course-taking%20patterns%20across%20different%20types%20of%20courses/2.%20Code)
-     *  This project aimed to enhance workplace performance by identifying key factors and improving the evaluation 
-        and compensation system for employees to achieve both improved performance and salary increases.
+      *  This project analyzed customer data from 2015 to 2024 to develop strategies for preventing churn and improving 
+         retention. By examining order, course, refund, and customer information, insights were gained into purchase patterns, 
+        refund trends, and user behavior. The goal was to enhance customer loyalty and reduce churn through targeted interventions.
+
 -----------------------------------------
 ## Project 1. Analysis of characteristics of top performers within the company
 
