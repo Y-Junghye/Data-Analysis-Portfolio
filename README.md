@@ -4,7 +4,7 @@
 -------------
 
 ### [Project 1. Analysis of characteristics of top performers within the company](https://github.com/Y-Junghye/Data-Analysis-Portfolio/tree/06ba2af666746f0bed8cdce5c93f1b547f9cfa3f/Project%201.%20Top%20Performer%20Characteristics%20Analysis%20/2.%20Code)
-### [Project 2. Analysis of major retirement factors of retirees](https://github.com/Y-Junghye/Portfolio/tree/8aa77da0a49cbf30cd009c7a87e6e350fc06a48e/Project%202.%20Retirement%20Factor%20Analysis/2.%20Code)
+### [Project 2. Analysis of major retirement factors of retirees](https://github.com/Y-Junghye/Data-Analysis-Portfolio/tree/06ba2af666746f0bed8cdce5c93f1b547f9cfa3f/Project%202.%20Retirement%20Factor%20Analysis/2.%20Code)
 ### [Project 3. Analysis of different data (manufacturing, finance, gaming)](https://github.com/Y-Junghye/Portfolio/tree/8aa77da0a49cbf30cd009c7a87e6e350fc06a48e/Project%203.%20Analysis%20of%20different%20data%20(manufacturing%2C%20finance%2C%20gaming)/2.%20Code)
 ### [Project 4. Identifying Pass:Fail in the semiconductor process](https://github.com/Y-Junghye/Portfolio/tree/8aa77da0a49cbf30cd009c7a87e6e350fc06a48e/Project%204.%20Identifying%20Pass%3AFail%20in%20the%20semiconductor%20process/2.%20Code)
 ### [Project 5. Sales Analysis by Category](https://github.com/Y-Junghye/Portfolio/tree/8aa77da0a49cbf30cd009c7a87e6e350fc06a48e/Project%205.%20Sales%20Analysis%20by%20Category/2.%20Code)
