@@ -24,8 +24,9 @@
         yearly trends, as well as clustering analysis to identify customer preferences.
 ### [Project 7. Analyze customer course-taking patterns across different types of courses](https://github.com/Y-Junghye/Data-Analysis-Portfolio/tree/ff0a084faf45944c92223012498d287a36ef9e98/Project%207.%20Analyze%20customer%20course-taking%20patterns%20across%20different%20types%20of%20courses/2.%20Code)
       *  This project analyzed customer data from 2015 to 2024 to develop strategies for preventing churn and improving 
-         retention. By examining order, course, refund, and customer information, insights were gained into purchase patterns, 
-        refund trends, and user behavior. The goal was to enhance customer loyalty and reduce churn through targeted interventions.
+         retention. By examining order, course, refund, and customer information, insights were gained into purchase 
+         patterns, refund trends, and user behavior. The goal was to enhance customer loyalty and reduce churn through 
+         targeted interventions.
 
 -----------------------------------------
 ## Project 1. Analysis of characteristics of top performers within the company
