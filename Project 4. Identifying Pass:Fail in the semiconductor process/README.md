@@ -1,34 +1,29 @@
-## **1. 배경**
-*   센서 데이터를 통해 반도체 공정에서 발생할 수 있는 수율 이탈의 주요 원인들을 파악
+## **1. Background**
+     *  dentifying the main causes of yield deviation in semiconductor processes using sensor data
   
-## **2. 데이터**
-*   반도체 공정 데이터(측정시간, 센서데이터, 불량여부) 수집
+## **2. Data**
+     *  Collection of semiconductor process data (measurement time, sensor data, defect status)
 
-## **3. 분석** 
+## **3. Analysis** 
 
-#####   *  분석목표:
-     *  반도체 공정 프로세스의 합격/불합격 수율이 예측가능한 모델 개발
+#####   *  Analysis Goals:
+     *  Development of a model to predict pass/fail yield in semiconductor process
 
-#####   *  우선순위:
-     *  로지스틱 모델과 랜덤포레스트 모델을 통해 중요 변수 파악
-     *  모델을 통해 찾은 가장 관련성있는 신호들을 관리 시스템 도입
+#####   *  Priorities:
+     *  Identifying important variables through logistic regression models and random forest models
+     *  Introducing management systems based on the most relevant signals found by the models 
 
-#####   *  데이터분석:
-     *  데이터 전처리 과정을 완료한 후 두 가지 모델을 통해 데이터 분석
-
-#####   *  분석도구
+#####   *  Data Analysis:
+     *  Analysis of data using two models after completing data preprocessing
+     
+#####   *  Analysis Tools
      *  Python
 
- ## **4. 결과**
-     *  추가적으로 상관관계 분석을 통해 합격/불합격 변수와 강한 상관관계 분석을 하였으며, 그 중에서 59,
-     103, 510 변수가 그러한 관계를 가졌음.
-     *  이를 기반으로 로지스틱회귀와 랜덤포레스트 분석을 하였으며, 모델에서 가장 중요한 변수가 
-     59, 510, 103 순인 것을 알수 있었음.
-     *  향후 수욜 유형의 핵심 신호로 나타난 59, 510, 103를 이용해 반도체 제조 공정 효율성을 높이기 
-     위한 작업을 진행해야함.
+ ## **4. Results**
+     *  Based on this, logistic regression and random forest analyses were conducted, revealing that variables 59, 510, and 103 were the most important in the models.
+     *  Using the key signals identified as 59, 510, and 103, efforts should be made to improve the efficiency of semiconductor manufacturing processes.
 
-## **5. 기대효과**
-     *  반도체 제조과정의 품질을 기존보다 20% 이상 향상
-     *  반도체 제조 공정 효율성이 높아짐과 동시에 품질도 향상되면서 소문을 들은 신규고객이 
-     이전보다 30% 증가함.
-     *  신규 고객 증가로 월 수익이 5억 증가함.
+## **5. Expected Effects**
+     *  Improvement of semiconductor manufacturing quality by more than 20% compared to existing standards
+     *  Increase in efficiency of semiconductor manufacturing processes, accompanied by improved quality, leading to a 30% increase in referrals from satisfied new customers
+     *  With the increase in new customers, monthly revenue is expected to increase by 500 million won.
